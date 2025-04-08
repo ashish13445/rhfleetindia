@@ -32,7 +32,7 @@ const Header = () => {
         <div className="md:hidden flex flex-col items-start px-6 pb-4 bg-black space-y-2">
           <a href="/" className="hover:text-yellow-500">Home</a>
           <a href="#services" className="hover:text-yellow-500">Services</a>
-          <a href="/contact" className="hover:text-yellow-500">Contact Us</a>
+          <Link to="/contact" className="hover:text-yellow-500">Contact Us</Link>
         </div>
       )}
     </header>

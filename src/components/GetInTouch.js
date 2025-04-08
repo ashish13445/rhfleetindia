@@ -1,5 +1,6 @@
 import React from "react";
 import contact from '../images/contact.webp'
+import { Link } from 'react-router-dom';
 const GetInTouch = () =>{
 return(
 <div className="relative h-[60vh] bg-cover bg-center " style={{
@@ -12,7 +13,7 @@ return(
                         <button className="relative px-6 py-3 my-5  font-bold text-white bg-white border-2 border-black  overflow-hidden group">
       <span className=" absolute inset-0 w-full h-full transition-transform duration-300 ease-out transform translate-x-0 bg-black group-hover:translate-x-full"></span>
       <span className="relative z-10 transition-colors duration-300 ease-in group-hover:text-black">
-        CONTACT US
+      <Link to="/contact" className="hover:text-yellow-500">Contact Us</Link>
       </span>
     </button>
                         
