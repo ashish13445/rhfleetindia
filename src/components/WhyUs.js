@@ -3,7 +3,7 @@ import React from 'react';
 import flexibility from '../images/flexibility.png'
 import management from '../images/management.png'
 import support from '../images/customer-support.png'
-import cars from '../images/cars.png'
+import cars from '../images/cars-2.png'
 
 const WhyUs = () => {
   return (
