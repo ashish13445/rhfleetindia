@@ -57,12 +57,15 @@ const ContactUs = () => {
         <div className="space-y-6 text-gray-700">
           <div>
             <h2 className="text-xl font-semibold mb-2 text-yellow-500">Head Office</h2>
-            <p>RH Fleet India Pvt. Ltd.<br/>Unit No. 115-116, First Floor, Vikas Surya, Janak Plaza, Block C-68, Janakpuri, New Delhi-110058</p>
+            <p>RH Fleet India Pvt. Ltd.<br/>Office Unit No. - 115-116, First Floor, Vikash Surya, Janak Plaza, Block C6B, Janakpuri,  New Delhi - 110058
+            </p>
           </div>
 
           <div>
             <h2 className="text-xl font-semibold mb-2 text-yellow-500">Call Us</h2>
-            <p>+91 9871627668</p>
+            <p>+911147038297</p>
+            <p>+919211291627</p>
+
           </div>
 
           <div>
