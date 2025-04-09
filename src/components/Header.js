@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Logo from '../images/logo.png';
+import Logo from '../images/logo-2.png';
 import { Menu, X } from 'lucide-react'; // optional: use any icon lib
 import { Link } from 'react-router-dom';
 
@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <header className="fixed top-0 left-0 w-screen bg-black text-white z-50 shadow-md">
       <div className="flex items-center justify-between md:justify-start px-6  py-3">
-        <img src={Logo} alt="RH FLEET INDIA PRIVATE LIMITED" className="h-12 md:mr-20" />
+        <img src={Logo} alt="RH FLEET INDIA PRIVATE LIMITED" className="h-20 md:mr-20" />
 
         {/* Mobile menu toggle button */}
         <button

@@ -4,14 +4,22 @@ import kolkata from '../images/kolkata.jpeg';
 import mumbai from '../images/mumbai.png';
 import ludhiana from '../images/ludhiana.jpg';
 import delhi from '../images/delhi.jpg';
+import chennai from '../images/chennai.jpg';
+import bangalore from '../images/bangalore.jpg';
+import hyderabad from '../images/hyderabad.jpg';
+import pune from '../images/pune.jpeg';
+
 
 const ExploreIndia = () => {
   const cities = [
-    { name: 'NAGPUR', image: nagpur },
+    { name: 'CHENNAI', image: chennai },
     { name: 'KOLKATA', image: kolkata },
     { name: 'MUMBAI', image: mumbai },
-    { name: 'LUDHIANA', image: ludhiana },
+    { name: 'BANGALORE', image: bangalore },
     { name: 'NEW DELHI', image: delhi },
+    { name: 'HYDERABAD', image: hyderabad },
+    { name: 'PUNE', image: pune },
+
   ];
 
   return (

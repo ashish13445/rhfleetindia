@@ -1,21 +1,21 @@
 // src/components/Footer.js
 import React from 'react';
-import logo from '../images/logo.png'
+import logo from '../images/logo-2.png'
 
 const Footer = () => {
   return (
     <div className=''>
         <div className='bg-black px-5 md:px-20 py-10 text-white md:flex items-center justify-between'>
             <div className='md:w-1/2 flex flex-col items-center'>
-            <img alt="logo" src={logo} className='h-20'/>
-            <p className='py-5 text-md'>Unit No. 115-116, First Floor, Vikas Surya, Janak Plaza, Block C-68, Janakpuri, New Delhi-110058</p>
-            <p className='text-sm'>we specialize in providing premium chauffeured car rentals (CCR) and employee transportation services (ETS) 
-            tailored to meet the diverse needs of corporate clients, including Fortune 500 companies, as well as individuals,
-            travel and tourism agencies, hotels, and government bodies across India. Our mission is to deliver reliable, comfortable,
-            and safe transportation solutions that enhance the travel experience for our clients.</p>
+            <img alt="logo" src={logo} className='h-20 md:h-40'/>
+            <p className='py-5 text-md'>Office Unit No. - 115-116, First Floor, Vikash Surya, Janak Plaza, Block C6B, Janakpuri,  New Delhi - 110058
+            </p>
+            <p className='text-sm'>We specialize in delivering premium Chauffeured Car Rental (CCR) and Employee Transportation Services (ETS), meticulously designed to cater to the diverse requirements of corporate entities, individual clients, travel and tourism operators, hospitality establishments, and event management across India. Our commitment is to provide reliable, comfortable, and secure transportation solutions that enhance the overall travel experience and operational efficiency of our clients.
+            </p>
             </div>
             <div className='md:w-1/4 p-10'>
-                <p> +91 9871627668</p>
+                <p> +91 1147038297</p>
+                <p>+91 9211291627</p>
                 <p> reservations@rhfleetindia.com</p>
 
             </div>
