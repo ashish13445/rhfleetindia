@@ -1,7 +1,7 @@
 import React from "react";
-import premium from '../images/premium-white.png';
-import luxury from '../images/luxury-white.png';
-import economy from '../images/economy-white.png';
+import premium from '../images/premium-3.png';
+import luxury from '../images/luxury-3.png';
+import economy from '../images/economy-3.png';
 import bus from '../images/bus-2.png';
 
 const Fleet = () => {
@@ -14,14 +14,14 @@ const Fleet = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         {/* Premium */}
         <div className="bg-gradient-to-b from-gray-100 to-white py-5 rounded-3xl text-center shadow-md" data-aos="zoom-in">
-          <h1 className="text-xl md:text-3xl pb-0 font-semibold">Premium</h1>
-          <img alt="premium" src={premium} className="h-20 md:h-48 mx-auto" />
+          <h1 className="text-xl md:text-3xl  font-semibold">Premium</h1>
+          <img alt="premium" src={premium} className="h-20  md:h-48 mx-auto" />
         </div>
 
         {/* Luxury */}
         <div className="bg-gradient-to-b from-gray-100 to-white py-5 rounded-3xl text-center shadow-md" data-aos="zoom-in">
-          <h1 className="text-xl md:text-3xl pb-4 font-semibold">Luxury</h1>
-          <img alt="luxury" src={luxury} className="h-20 md:h-48 mx-auto" />
+          <h1 className="text-xl md:text-3xl pb-5 font-semibold">Luxury</h1>
+          <img alt="luxury" src={luxury} className="h-20 md:h-40 mx-auto" />
         </div>
 
         {/* Economy */}

@@ -37,12 +37,12 @@ const Hero = () => {
     }
   };
   return (
-    <div className='bg-gray-900 flex flex-col items-center'>
+    <div className='bg-gray-900 flex flex-col items-center mt-5'>
 
     <section
-      className="relative h-content md:h-screen  w-full flex  items-center justify-center md:justify-start px-6 md:px-20 lg:px-40 bg-no-repeat bg-center md:bg-right pb-20"
+      className=" h-content md:h-screen  w-full flex  items-center justify-center md:justify-start px-6 md:px-20 lg:px-40 bg-no-repeat bg-top md:bg-right pb-20 filter brightness-150"
       style={{
-        backgroundImage: `linear-gradient(to top, rgba(0, 0, 0, 1) 100%, rgba(255, 255, 255, 0.05) 100%), url(${heroImage})`,
+        backgroundImage: `linear-gradient(to top, rgba(0, 0, 0, 0.5) 100%, rgba(255, 255, 255, 0.05) 100%), url(${heroImage})`,
         backgroundBlendMode: 'soft-light',
         backgroundSize: 'contain',
       }}
@@ -51,7 +51,7 @@ const Hero = () => {
       <div className="absolute inset-0 bg-black opacity-50 "></div>
 
       {/* Content */}
-      <div className="relative z-10 text-white w-full md:w-1/2 ">
+      <div className="relative z-10 text-white w-full md:w-1/2 mt-48 sm:mt-0">
         <h1 className="text-2xl md:text-5xl font-bold mt-40 mb-6 text-transparent bg-clip-text bg-[length:200%_100%] bg-gradient-to-r from-yellow-500 to-black animate-fillText">
           Tailored Rides for Corporates, Consulates & Global Travelers
         </h1>
@@ -67,17 +67,17 @@ const Hero = () => {
             <span>100+ Vehicles</span>
           </div> */}
           <div className="flex flex-col items-center px-6">
-            <img src={locationIcon} alt="location icon" className="w-16 sm:w-20 p-2" />
+            <img src={locationIcon} alt="location icon" className="w-10 sm:w-20 p-2" />
             <span>Pan India Services</span>
           </div>
         </div>
       </div>
          </section>
-          <div className='bg-white p-5 md:p-10 mx-5 mt-32 md:mx-20 md:mt-20 relative -top-40 md:w-2/3 rounded-3xl'>
+          <div className='bg-white p-5 md:p-10 mx-5 mt-32 md:mx-20 md:mt-28 relative -top-40 md:w-5/6 rounded-3xl'>
             <h1 className='text-center text-3xl font-bold text-yellow-600 mb-5'>Book Your Car</h1>
           <form className="space-y-6" onSubmit={onSubmit}>
             <div className='md:flex w-full'>
-            <div className='md:w-1/2 mr-2'>
+            <div className='md:w-1/2 mb-4 md:mr-2'>
                 <input
                   type="text"
                   required='true'
@@ -98,7 +98,7 @@ const Hero = () => {
               </div>
             </div>
               <div className='w-full md:flex'>
-              <div className='md:w-1/2 mr-2'>
+              <div className='md:w-1/2 mb-4 md:mr-2'>
               <div className="flex items-center border border-gray-300 rounded-xl overflow-hidden focus-within:ring-2 focus-within:ring-yellow-400">
   <span className="px-3 bg-gray-100 text-gray-700 text-sm">+91</span>
   <input
@@ -129,7 +129,7 @@ const Hero = () => {
               </div>
               
               <div className='w-full md:flex'>
-              <div className='md:w-1/2 mr-2'>
+              <div className='md:w-1/2 mb-4 md:mr-2'>
                 <select
                   required='true'
                   name='serviceType'

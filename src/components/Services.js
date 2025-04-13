@@ -6,10 +6,10 @@ const services = () => {
   return (
     <section className='py-20 px-10 md:px-60' id="services">
  <ul className="text-md md:text-xl text-red-800 flex justify-between lg:w-1/2  ">
-  <li className='bg-black py-2 pr-2 text-white w-40 m-2 text-center'>Corporates</li>
-  <li className='bg-black p-2 text-white w-40 m-2 text-center'>Consulates</li>
-  <li className='bg-black p-2 text-white w-40 m-2 text-center'>Hotels</li>
-  <li className='bg-black p-2 text-white w-40 m-2 text-center'>FITs</li>
+  <li className='bg-black  text-white w-40 m-2 '>Corporates</li>
+  <li className='bg-black  text-white w-40 m-2'>Consulates</li>
+  <li className='bg-black  text-white w-40 m-2 text-center'>Hotels</li>
+  <li className='bg-black  text-white w-40 m-2 '>FITs</li>
 </ul>
 <h1 className="text-xl md:text-5xl font-bold mb-4 text-yellow-500">
 

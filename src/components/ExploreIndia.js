@@ -17,8 +17,8 @@ const ExploreIndia = () => {
     { name: 'MUMBAI', image: mumbai },
     { name: 'BANGALORE', image: bangalore },
     { name: 'NEW DELHI', image: delhi },
-    { name: 'HYDERABAD', image: hyderabad },
-    { name: 'PUNE', image: pune },
+    // { name: 'HYDERABAD', image: hyderabad },
+    // { name: 'PUNE', image: pune },
 
   ];
 
