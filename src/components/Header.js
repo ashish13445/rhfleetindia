@@ -8,11 +8,11 @@ const Header = () => {
 
   return (
     <header className="fixed top-0 left-0 w-screen bg-white text-black z-50 shadow-md">
-      <div className="flex items-center justify-between  md:px-20  py-1">
+      <div className="flex items-center justify-between  px-5 md:px-20  py-1">
         <div className='flex items-center'>
-        <img src={Logo} alt="RH FLEET INDIA PRIVATE LIMITED" className="h-20 md:mr-10" />
+        <img src={Logo} alt="RH FLEET INDIA PRIVATE LIMITED" className="h-16 sm:h-20 md:mr-10" />
         <div className='sm:text-end'>
-        <h1 className='font-bold text-lg'>RH FLEET INDIA PRIVATE LIMITED</h1>
+        <h1 className='font-bold text-sm md:text-lg'>RH FLEET INDIA PRIVATE LIMITED</h1>
         <p className='text-xs text-gray-800 italic'>Delivering Quality Travel Experience</p>
         </div>
 
