@@ -1,13 +1,20 @@
 // src/components/Footer.js
 import React from 'react';
-import logo from '../images/logo-2.png'
+import logo from '../images/logo-4.png'
 
 const Footer = () => {
   return (
     <div className=''>
         <div className='bg-black px-5 md:px-20 py-10 text-white md:flex items-center justify-between'>
             <div className='md:w-1/2 flex flex-col items-center'>
+            <div className='flex items-center'>
             <img alt="logo" src={logo} className='h-20 md:h-40'/>
+            <div className=''>
+              <p className='font-bold text-xl'> RH FLEET INDIA PRIVATE LIMITED</p>
+              <p className='italic text-xs text-end'>Delivering Quality Travel Experiences</p>
+            </div>
+
+            </div>
             <p className='py-5 text-md'>Office Unit No. - 115-116, First Floor, Vikash Surya, Janak Plaza, Block C6B, Janakpuri,  New Delhi - 110058
             </p>
             <p className='text-sm'>We specialize in delivering premium Chauffeured Car Rental (CCR) and Employee Transportation Services (ETS), meticulously designed to cater to the diverse requirements of corporate entities, individual clients, travel and tourism operators, hospitality establishments, and event management across India. Our commitment is to provide reliable, comfortable, and secure transportation solutions that enhance the overall travel experience and operational efficiency of our clients.

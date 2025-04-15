@@ -1,6 +1,5 @@
 import React,{useState} from 'react';
-import carIcon from '../images/yellow-car-icon.png';
-import heroImage from '../images/black_car.png';
+import heroImage from '../images/black_car_1.png';
 import locationIcon from '../images/yellow-map-icon.png';
 
 const Hero = () => {
